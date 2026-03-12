@@ -91,6 +91,7 @@ man-db
 matugen-bin
 mercurial
 millennium
+mousepad
 mpv
 mpv-mpris
 nano
