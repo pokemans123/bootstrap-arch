@@ -16,6 +16,8 @@ pkgs=/var/lib/pkglist/packages.txt
 echo 'please enter your username exactly as you set it:'
 read user
 
+echo 'upgrading packages...'
+pacman -Syu
 mkdir -p "/home/$user"
 chown $user:$user /home/$user
 
