@@ -21,6 +21,8 @@ chown $user:$user /home/$user
 
 sudo -u "$user" bash << EOF
 echo 'building yay...'
+
+cd /home/$user
 git clone --depth=1 https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
