@@ -50,7 +50,6 @@ hashcat-utils
 howdy-bin
 hypridle
 hyprland
-hyprlock
 hyprpicker
 hyprpolkitagent
 imagemagick
@@ -91,7 +90,6 @@ man-db
 matugen-bin
 mercurial
 millennium
-mousepad
 mpv
 mpv-mpris
 nano
@@ -208,6 +206,7 @@ xdg-desktop-portal-wlr
 xdg-user-dirs
 xdotool
 xorg-xhost
+xournalpp
 yad
 yay-bin
 yay-bin-debug

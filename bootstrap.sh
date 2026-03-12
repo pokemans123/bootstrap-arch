@@ -30,7 +30,7 @@ makepkg -si --noconfirm
 echo 'yay built successfully!'
 
 echo 'installing packages...'
-yay -S --needed --noconfirm $(cat packages.txt)"
+yay -S --needed --noconfirm $(< packages.txt)
 EOF
 
 exit 0
