@@ -30,7 +30,6 @@ fd
 ffmpegthumbnailer
 figlet
 flatpak
-fsearch
 fzf
 ghidra
 gimp
@@ -47,7 +46,6 @@ gvfs-mtp
 gvim
 hashcat
 hashcat-utils
-howdy-bin
 hypridle
 hyprland
 hyprpicker
@@ -71,8 +69,6 @@ keyd
 kitty
 kvantum
 kvantum-qt5
-libastal-hyprland-git
-libastal-mpris-git
 libinput-tools
 libpulse
 librewolf-bin
