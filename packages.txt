@@ -1,6 +1,5 @@
 adobe-source-code-pro-fonts
 adw-gtk-theme
-airctl-bin
 alacritty
 android-studio
 baobab
@@ -21,6 +20,8 @@ cowsay
 cups
 dart-sass
 dnsmasq
+docker
+docker-compose
 dosfstools
 efibootmgr
 ex-vi-compat
@@ -28,7 +29,6 @@ fastfetch
 fd
 ffmpegthumbnailer
 figlet
-firefox
 flatpak
 fsearch
 fzf
@@ -59,6 +59,7 @@ intel-compute-runtime
 intel-gpu-tools
 intel-graphics-compiler
 intel-media-driver
+intel-npu-driver-bin
 intel-ucode
 inxi
 ipython
@@ -74,6 +75,7 @@ libastal-hyprland-git
 libastal-mpris-git
 libinput-tools
 libpulse
+librewolf-bin
 libspng
 libva-utils
 libvirt
@@ -93,10 +95,8 @@ millennium
 mpv
 mpv-mpris
 nano
-nautilus
-nautilus-open-any-terminal
-nautilus-python
 ncdu
+nemo
 neovim
 network-manager-applet
 networkmanager
@@ -163,10 +163,8 @@ sqlitebrowser
 steam
 stow
 sudo
-swaylock-effects
 swww
 thermald
-thunar
 tlp
 tmux
 tor-browser-bin
@@ -210,10 +208,12 @@ xournalpp
 yad
 yay-bin
 yay-bin-debug
+yazi
 yt-dlp
 zen-browser-bin
 zip
 zoom
+zoxide
 zsh
 zsh-autocomplete
 zsh-autosuggestions
