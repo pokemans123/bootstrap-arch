@@ -32,7 +32,10 @@ makepkg -si --noconfirm
 echo 'yay built successfully!'
 
 echo 'installing packages...'
-yay -S --noconfirm --needed $(<./packages.txt )
+while IFS= read -r pkg || [[ -n "\$pkg" ]]; do
+    [[ -z "\$pkg" || "\$pkg" == \#* ]] && continue
+    yay -S --noconfirm --needed "\$pkg"
+done < <(tr -d '\r' < "$pkgs")
 EOF
 
 exit 0
