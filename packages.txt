@@ -1,3 +1,4 @@
+7zip
 adobe-source-code-pro-fonts
 adw-gtk-theme
 alacritty
@@ -64,6 +65,7 @@ ipython
 john
 jq
 jre-openjdk
+kdeconnect
 keepassxc
 keyd
 kitty
@@ -87,7 +89,6 @@ ly
 man-db
 matugen-bin
 mercurial
-millennium
 mpv
 mpv-mpris
 nano
@@ -143,6 +144,7 @@ qt6-virtualkeyboard
 qt6-webengine
 qt6ct
 qutebrowser
+resvg
 ripgrep
 rofi
 rsync
@@ -184,7 +186,6 @@ unzip
 vesktop-bin
 virt-manager
 vscodium-bin
-waybar
 webapp-manager
 wev
 wget
