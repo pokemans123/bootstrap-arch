@@ -1,8 +1,8 @@
 7zip
 adobe-source-code-pro-fonts
 adw-gtk-theme
-alacritty
 android-studio
+awww
 baobab
 base
 base-devel
@@ -16,7 +16,7 @@ brightnessctl
 btop
 cava
 cliphist
-cmatrix
+cmatrix-git
 cowsay
 cups
 dart-sass
@@ -65,7 +65,6 @@ ipython
 john
 jq
 jre-openjdk
-kdeconnect
 keepassxc
 keyd
 kitty
@@ -84,7 +83,6 @@ localsend-bin
 lolcat
 loupe
 lsd
-lutgen-studio-bin
 ly
 man-db
 matugen-bin
@@ -161,7 +159,8 @@ sqlitebrowser
 steam
 stow
 sudo
-swww
+tesseract
+tesseract-data-tam
 thermald
 tlp
 tmux
@@ -190,6 +189,7 @@ webapp-manager
 wev
 wget
 wine
+wine-mono
 wireplumber
 wlogout
 wlr-randr
@@ -203,6 +203,7 @@ xdotool
 xorg-xhost
 xournalpp
 yad
+yarn
 yay-bin
 yay-bin-debug
 yazi
