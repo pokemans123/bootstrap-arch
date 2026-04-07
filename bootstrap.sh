@@ -13,31 +13,6 @@ cp ./log-packages.hook /usr/share/libalpm/hooks/log-packages.hook
 cp ./packages.txt /var/lib/pkglist/packages.txt
 
 pkgs=/var/lib/pkglist/packages.txt
-echo 'please enter your username exactly as you set it:'
-read user
-
-echo 'upgrading packages...'
-pacman -Syu
-mkdir -p "/home/$user"
-chown $user:$user /home/$user
-
-sudo -u "$user" bash << EOF
-echo 'building yay...'
-
-cd /home/$user
-git clone --depth=1 https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si --noconfirm
-
-echo 'yay built successfully!'
-
-echo 'installing packages...'
-while IFS= read -r pkg || [[ -n "\$pkg" ]]; do
-    [[ -z "\$pkg" || "\$pkg" == \#* ]] && continue
-    yay -S --noconfirm --needed "\$pkg"
-done < <(tr -d '\r' < "$pkgs")
-EOF
-
-exit 0
+echo 'setup complete!'
 
 
