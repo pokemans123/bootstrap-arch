@@ -1,6 +1,11 @@
 #!/bin/bash
 #Meant to be run in chroot!!!
 
+if [ $(whoami) != 'root' ]; then  
+  echo 'Please run as root'
+  exit 0
+fi
+
 echo 'setting up pkglist and logging hooks...'
 mkdir -p /var/lib/pkglist
 touch /var/lib/pkglist/packages.txt
