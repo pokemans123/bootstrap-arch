@@ -31,6 +31,7 @@ dinit
 dms-shell-git
 dnsmasq
 dnsmasq-dinit
+dotnet-runtime
 downgrade
 dsearch-bin
 elogind-dinit
@@ -38,6 +39,7 @@ emacs-nox
 exo
 fastfetch
 fd
+feh
 ffmpegthumbnailer
 freetube-bin
 fzf
@@ -100,6 +102,7 @@ nss-mdns
 nwg-look
 onlyoffice-bin
 openssh-dinit
+oxwm-git
 pacman-contrib
 pacman-static
 pamac
@@ -107,6 +110,7 @@ pamixer
 papirus-icon-theme
 paru
 pdftricks
+picom
 pip2pkgbuild
 pipes.sh
 pipewire
@@ -157,8 +161,11 @@ steam
 tesseract
 tesseract-data-eng
 tesseract-data-osd
+thermald
+thermald-dinit
 thunar
 thunar-volman
+thunderbird
 tk
 tlp
 tlp-dinit
@@ -199,6 +206,7 @@ xfdesktop
 xfwm4
 xfwm4-themes
 xorg-server
+xorg-xclipboard
 xorg-xhost
 xorg-xkill
 xournalpp
